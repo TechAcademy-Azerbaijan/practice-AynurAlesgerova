@@ -4,7 +4,9 @@ prompt.start();
 prompt.get('input', function(err,result) {
    
     let arr= result.input.split(',')
-    let arr2 = arr.reverse()
 
-   console.log(arr2);
+for (let i=arr.length-1; i>=0;i--) {
+    console.log(arr[i]);
+    
+}
   });   
